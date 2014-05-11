@@ -6,6 +6,6 @@
         }
     ],
     "require" : {
-        "alanly/myconcordiaapi" : "dev-develop"
+        "alanly/myconcordiaapi" : "dev-master"
     }
 }
