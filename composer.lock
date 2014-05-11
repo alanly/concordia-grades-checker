@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "906447cb8589ab04ec727bf0909b0506",
+    "packages": [
+        {
+            "name": "alanly/myconcordiaapi",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alanly/myconcordiaapi.git",
+                "reference": "eb1282b8794a86c19b9f250839fe2b5f4435d05c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alanly/myconcordiaapi/zipball/eb1282b8794a86c19b9f250839fe2b5f4435d05c",
+                "reference": "eb1282b8794a86c19b9f250839fe2b5f4435d05c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-libxml": "*",
+                "ext-pcre": "*",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyConcordiaApi\\": "src/MyConcordiaApi"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Ly",
+                    "email": "hello@alan.ly",
+                    "homepage": "http://alan.ly"
+                }
+            ],
+            "description": "A programmatically convenient interface for interacting with the MyConcordia portal.",
+            "support": {
+                "source": "https://github.com/alanly/myconcordiaapi/tree/develop",
+                "issues": "https://github.com/alanly/myconcordiaapi/issues"
+            },
+            "time": "2014-05-11 04:06:09"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "alanly/myconcordiaapi": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

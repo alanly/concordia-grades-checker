@@ -1,0 +1,11 @@
+{
+    "repositories" : [
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/alanly/myconcordiaapi"
+        }
+    ],
+    "require" : {
+        "alanly/myconcordiaapi" : "dev-develop"
+    }
+}
